@@ -1,0 +1,18 @@
+.header {
+    background: orangered;
+}
+.logo h2 {
+    color: #fff;
+    font-weight: 700;
+}
+.top_menu_links a {
+    text-decoration: none;
+    color: #fff;
+    background: orange;
+    padding: 10px 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.top_menu_links a:last-child{
+    margin-right: 0;
+}
