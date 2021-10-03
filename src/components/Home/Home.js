@@ -1,9 +1,12 @@
 import React from 'react';
+import Category from '../Category/Category';
+import TopCourses from '../TopCourses/TopCourses';
 
 const Home = () => {
     return (
         <div>
-            <h1>Home</h1>
+            <Category></Category>
+            <TopCourses></TopCourses>
         </div>
     );
 };
