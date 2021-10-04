@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Course = (props) => {
-    console.log(props.course);
     const {title, image, time, description, instructor} = props.course;
     return (
         <div className="col-lg-3 col-md-6">
