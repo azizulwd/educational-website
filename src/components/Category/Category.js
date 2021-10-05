@@ -3,7 +3,7 @@ import React from 'react';
 const Category = () => {
     return (
         <div className="container mb-5">
-            <div className="row">
+            <div className="row g-4">
                 <div className="col-lg-3 col-md-6">
                     <div className="categorie bg-warning p-4 rounded">
                         <h3 className="mb-4 text-white">Analysis of Algorithms</h3>

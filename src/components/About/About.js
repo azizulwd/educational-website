@@ -1,4 +1,11 @@
 import React from 'react';
+import './About.css';
+import team1 from '../../images/team-pic-1.jpg';
+import team2 from '../../images/team-pic-2.jpg';
+import team3 from '../../images/team-pic-3.jpg';
+import fb from '../../images/fb.png';
+import twitter from '../../images/twitter.png';
+import linkedin from '../../images/linkedin.png';
 
 const About = () => {
     return (
@@ -31,7 +38,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="about_us_achieve bg-dark py-5">
+            <div className="about_us_achieve bg-dark py-5 mb-5">
                 <div className="container text-center text-white">
                     <h2 className="fw-bold mb-3">We just keep growing</h2>
                     <p>Our global community and our course catalog get bigger every day. <br/> Check out our latest numbers as of June 2021.</p>
@@ -52,6 +59,56 @@ const About = () => {
                             <div className="milestone">
                                 <h2 className="fw-bold">135K+</h2>
                                 <p>Courses</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="team_section mb-5">
+                <div className="container">
+                    <h1 className="fw-bold mb-5">Meet Our Specialist</h1>
+                    <div className="row g-4">
+                        <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="team_member text-center">
+                                <img className="teamPic" src={team1} alt="" />
+                                <div className="text-center mt-4">
+                                    <h3 className="fw-bold">Borish Simga</h3>
+                                    <p>Software Engineer</p>
+                                </div>
+                                <div className="social_links d-flex justify-content-center align-items-center gap-3 mt-5">
+                                    <img src={fb} alt="" />
+                                    <img src={twitter} alt="" />
+                                    <img src={linkedin} alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="team_member text-center">
+                                <img className="teamPic" src={team2} alt="" />
+                                <div className="text-center mt-4">
+                                    <h3 className="fw-bold">John Smit</h3>
+                                    <p>Wed Apps Developer</p>
+                                </div>
+                                <div className="social_links d-flex justify-content-center align-items-center gap-3 mt-5">
+                                    <img src={fb} alt="" />
+                                    <img src={twitter} alt="" />
+                                    <img src={linkedin} alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="team_member text-center">
+                                <img className="teamPic" src={team3} alt="" />
+                                <div className="text-center mt-4">
+                                    <h3 className="fw-bold">Borish Johnson</h3>
+                                    <p>Advisor</p>
+                                </div>
+                                <div className="social_links d-flex justify-content-center align-items-center gap-3 mt-5">
+                                    <img src={fb} alt="" />
+                                    <img src={twitter} alt="" />
+                                    <img src={linkedin} alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>

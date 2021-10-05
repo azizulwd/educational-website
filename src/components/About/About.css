@@ -1,0 +1,18 @@
+.team_member {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px lightgray;
+}
+.team_member .teamPic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.social_links{
+    margin: 0 auto;
+}
+.social_links img{
+    width: 50px;
+    cursor: pointer;
+}
