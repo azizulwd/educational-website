@@ -1,0 +1,17 @@
+.notFoundPage a {
+    color: #fff;
+    background: orangered;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.returnHome_btn {
+    text-align: center;
+}
+.notFoundtext {
+    font-size: 200px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, orangered 20.69%, orange 50.19%, orangered);
+    -webkit-background-clip: text;
+    color: transparent;
+}
